@@ -46,6 +46,7 @@
     line-height: 19px;
     color: #696F79;
     display: inline-block;
+    margin-right: 5px;
 }
 
 .form-login-footer button {

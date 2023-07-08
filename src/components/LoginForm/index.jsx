@@ -63,7 +63,7 @@ export default class LoginForm extends Component {
         </form>
         <div className='form-login-footer'>
             <h4>Dont have an account? </h4>
-            <button onClick={()=> this.props.changePage('register')}>Register</button>
+            <button onClick={()=> this.props.changePage('register')}> Register </button>
         </div>
       </div>
     )
