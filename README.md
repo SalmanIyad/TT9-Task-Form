@@ -10,7 +10,7 @@ Mohammed shoman • 6 Jul
 - Use conditional rendering to switch between the sign-up and login pages based on state changes.
 - Create a password strength indicator that measures complexity, considering capital and small characters, numbers, symbols, length, and avoiding consecutive repetition of the same character more than twice.
 
-### Figma
+### Figma Design
 https://www.figma.com/file/EY9Z67LbWSA
 
 ## Link of Deployment:
