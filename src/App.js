@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Register from './pages/Register';
 import Login from './pages/Login';
 
-class App extends Component {
+export default class App extends Component {
 
   state = {
     currentPage:'register',
@@ -45,5 +45,3 @@ class App extends Component {
     }
   }
 }
-
-export default App;

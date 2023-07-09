@@ -2,59 +2,69 @@
 
 .password-strength {
     width: 100% !important;
+    min-width: 100% !important;
     margin-bottom: 1rem;
+}
+
+.password-strength .backLine {
+    width: 100% !important;
+    min-width: 100% !important;
+    border-radius: 4px;
+    background: #C4C4C4;
 }
 
 .password-strength-meter-very-strong {
     width: 100% !important;
+    min-width: 100% !important;
     height: 5px;
-    background-color: rgb(28, 194, 28);
+    background-color: rgb(28, 194, 28); 
     border-radius: 2rem;
 }
 
 .reasons-very-strong {
-    color: rgb(28, 194, 28);
+    color: rgb(28, 194, 28) !important;
     font-size: 1rem;
 }
 
 /* strong */
 
 .password-strength-meter-strong {
-    width: 70% !important;
+    width: 80% !important;
     height: 5px;
     background-color: rgb(14, 97, 14);
     border-radius: 2rem;
 }
 
 .reasons-strong {
-    color: rgb(14, 97, 14);
+    color: rgb(14, 97, 14) !important;
     font-size: 1rem;
 }
 
 /* medium */
 
 .password-strength-meter-medium {
-    width: 40% !important;
+    width: 60% !important;
     height: 5px;
     background-color: rgb(218, 146, 14);
     border-radius: 2rem;
 }
 
+
 .reasons-medium {
-    color: rgb(218, 146, 14);
+    color: rgb(218, 146, 14) !important;
     font-size: 1rem;
 }
 
 /* low */
 
 .password-strength-meter-low {
-    width: 20% !important;
+    width: 40% !important;
     height: 5px;
     background-color: rgb(250, 23, 23);
     border-radius: 2rem;
 }
 
 .reasons-low {
-    color: rgb(250, 23, 23);
+    color: rgb(250, 23, 23) !important;
     font-size: 1rem;
 }

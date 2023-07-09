@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SocialMedia from '../SocialMedia'
-import HorizentalLine from '../HorizentalLine'
+import HorizontalLine from '../HorizontalLine'
 import Swal from 'sweetalert2'
 import ErrorMsg from '../ErrorMsg'
 import './style.css'
@@ -45,7 +45,7 @@ export default class LoginForm extends Component {
           <p>Go inside the best gamers social network!</p>
         </div>
         <SocialMedia />
-        <HorizentalLine />
+        <HorizontalLine />
         <form onSubmit={this.handleSubmit}>
           {this.state.alert === 'success' && <ErrorMsg alertType={this.state.alert}>{this.state.msg}</ErrorMsg>}
           <div className='form-input'>

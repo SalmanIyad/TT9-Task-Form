@@ -53,6 +53,48 @@
     cursor: pointer;
 }
 
+.form-input * {
+    color: #696F79;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form-checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+}
+.form-checkbox input {
+    visibility: hidden;
+    /* <-- Hide the default checkbox. The rest is to hide and allow tabbing, which display:none prevents */
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.form-checkbox span {
+    /* <-- Style the artificial checkbox */
+    height: 18px;
+    width: 18px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+[type=checkbox]:checked+span {
+    border-radius: 4px;
+    background-image: url('../../../public/assets/images/checkbox-span.png');
+    border: none;
+    background-size: 18px 18px;
+    object-fit: contain;
+}
+
+/*  */
 .login-button {
     max-width: 80%;
     height: 4rem;
@@ -72,7 +114,7 @@
     .form-section form div {
         width: 100%;
     }
-
+    
     .social-media-icons {
         width: 100%;
     }

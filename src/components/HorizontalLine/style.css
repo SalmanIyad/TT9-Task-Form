@@ -1,12 +1,12 @@
-.horizental-line {
+.horizontal-line {
     width: 80%;
     text-align: center;
     color: #BABABA;
     position: relative;
-    margin: 2rem 0;
+    margin: 0.19rem 0 1.563rem 0;
 }
 
-.horizental-line::after {
+.horizontal-line::after {
     content: '';
     position: absolute;
     height: 3px;
@@ -16,7 +16,7 @@
     background-color: #F5F5F5;
 }
 
-.horizental-line::before {
+.horizontal-line::before {
     content: '';
     position: absolute;
     height: 3px;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width:992px) {
-    .horizental-line {
+    .horizontal-line {
         width: 100%;
     }
 }

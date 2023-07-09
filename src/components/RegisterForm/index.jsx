@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PasswordStrength from '../PasswordStrength'
-import HorizentalLine from '../HorizentalLine'
+import HorizontalLine from '../HorizontalLine'
 import ErrorMsg from '../ErrorMsg'
 import Swal from 'sweetalert2'
 import './style.css'
@@ -92,15 +92,16 @@ export default class RegisterForm extends Component {
           </div>
           <div className='form-checkbox'>
             <label htmlFor="terms">
-            <input type="checkbox" name="terms" id="terms" onChange={this.onChech} required/>
-            I agree to terms & conditions
+              <input type="checkbox" name="terms" id="terms" onChange={this.onChech} required/>
+              <span></span>
+              I agree to terms & conditions
             </label>
           </div>
           {this.state.alert === 'error' && <ErrorMsg alertType={this.state.alert}>{this.state.msg}</ErrorMsg>}
           <div className='form-submit'>
             <button type='submit'>Register Account</button>
           </div>
-            <HorizentalLine />
+          <HorizontalLine />
         </form>
         <button className='login-button' onClick={()=>this.props.changePage('login')}>login</button>
       </div>
